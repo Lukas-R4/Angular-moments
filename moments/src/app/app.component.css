@@ -1,0 +1,5 @@
+.container {
+    /* 65% da altura da tela, será do conteúdo. Resto é pra footer e header */
+    min-height: 65vh;
+    margin-top: 1em;
+}
