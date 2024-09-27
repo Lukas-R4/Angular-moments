@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    color: #444;
+}
+
+a {
+    /* Remove o underscore */
+    text-decoration: none;
+    /* Aplica cor padrão */
+    color: #444;
+    /* Transição entre o posicionamento do mouse e a mudança de cor do hover */
+    transition: .4s;
+}
+
+/* Define o que ocorre com o link ao posicionar o mouse sobre o mesmo */
+a:hover {
+    /* Irá mudar de cor para o dourado */
+    color: #dec129; 
+}

@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid #777;
+}
+
+.brand,
+.links {
+    /* Os itens passam a ser listados na horizontal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand img {
+    width: 40px;
+    margin-right: 0.6em;
+}
+
+/* Início da transição de cores para o H2 */
+.brand h2 {
+    transition: .4s;
+}
+
+.brand:hover > h2 {
+    color: #dec129;
+}
+
+/* Fim da transição de cores para o h2 */
+
+.links li {
+    /* Remove bullet das listas */
+    list-style: none;
+    margin-right: 1em;
+}
+
+.links a {
+    padding: 0.1em 0.3em;
+}
+
+#add a {
+    color:#dec129;
+}
+
+#add a:hover {
+    background-color: #efefef;
+}
