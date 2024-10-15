@@ -10,6 +10,8 @@ import { NewMomentComponent } from './components/pages/new-moment/new-moment.com
 import { MomentFormComponent } from './components/moment-form/moment-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { MessageComponent } from './components/message/message.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -19,14 +21,16 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     HomeComponent,
     NewMomentComponent,
-    MomentFormComponent
+    MomentFormComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
